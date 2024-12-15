@@ -1,0 +1,230 @@
+.Employee1{
+    color: #B16FFF !important;
+}
+.flexproperty{
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+
+}
+/* .heading1{
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+font-weight: 500px !important;
+}
+.digh1{
+font-weight: 600px !important;
+
+} */
+ .gradientl{
+margin-top: 100px !important;
+line-height: 7px !important;
+background: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+ }
+ .parakosai1{
+
+    line-height: 7px !important;
+ }
+ .abebhailag1{
+    color: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%) !important;
+    font-weight: 900 ;
+
+ }
+ .colorbhi{ 
+    background-color: #6851FF !important;
+    border-radius: 30px !important;
+ }
+ .apnacolor2{
+color: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%) !important;
+ }
+ .btndisplay{
+    border:1px solid #6851FF !important;
+    color: #6851FF !important;
+ }
+ .height12{
+line-height: 7px !important;
+width: 100% !important;
+
+ }
+ .picsadjust{
+    width: 100% !important;
+ }
+ .setimagekrni{
+    width: 100% !important;
+ }
+ .amirkacolor{
+    color: #6851FF !important;
+ }
+ .saikmkr{
+    width: 100% !important;
+    margin-top: 50% !important;
+ }
+ .colorkondega{
+    color: #6851FF !important;
+ }
+ .shadowkro{
+box-shadow:  0 4px 40px #bdb2ff3d inset;
+border: 1px solid white !important;
+
+ }
+ .hnyrrcolorbhi{
+background : linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+ .hnbaba{
+
+   color: #6851FF !important;
+
+ }
+ .rskobhicolor{
+
+   color: #6851FF !important;
+
+ }
+ .hnhnderaha{
+   color: #6851FF !important;
+
+ }
+ .boxkobhizaro{
+   box-shadow: 0 6px 12px #0000001a !important;
+border: rgb(238, 238, 238) !important;
+background: white !important;
+ }
+ .supercolordo{
+
+color: #6851FF;
+
+ }
+ .abeiskokon{
+   width: 100%;
+ }
+ .kabirbhaiko{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+ }
+ .phirsaicolor1{
+   color: #6851FF;
+
+ }
+ .withdo{
+width: 50% !important;
+
+ }
+ .gaibhu{
+   width: 100%;
+   height: auto;
+ }
+ .tobhilelephir{
+
+   color: #6851FF !important;
+ }
+ .hnabkrnahai{
+   background: linear-gradient(180deg, #edebff, hsla(0, 0%, 100%, 0));
+   box-shadow: 0 4px 40px #bdb2ff3d;
+   border-radius: 20px !important;
+   border: 1px solid white !important;
+ }
+ .jajajalo{
+
+   color: #6851FF !important;
+
+ }
+ .nikalabyahasai{
+width: 100%;
+
+
+ }
+ .parihaiapnelia{
+width: 50%;
+justify-content: center !important;
+align-items: center !important;
+margin-left: 290px !important;
+margin-right: 
+ }
+
+
+
+ 
+ .achabeta{
+margin-right: 100px;
+
+ }
+ .abeyrrab{
+width: 50%;
+
+ }
+ .oralkabap{
+
+  width: 100% !important;
+height: 350px;
+background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+margin-top: 200px !important;
+/* -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+ }
+ .bhaibhaiko{
+width: 50%;
+align-items: center;
+
+ }
+ .imagesetkrni{
+/* width: 50% !important; */
+
+
+
+ }
+ .hnhnbithikhai{
+/* color: white !important;
+width: 50% !important;
+justify-content: center !important;
+align-items: center !important; */
+width: 25%;
+margin: 10px 0px 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(255, 255, 255);
+
+ }
+ .kroabkiakrin{
+  width: 100% !important;
+ }
+ .bhaibhaiko{
+width: 50%;
+height: 200px;
+
+ }
+ .abhidedetahunsabar{
+width: 100%;
+height: 100px;
+  background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+  display: flex;
+  justify-content:center ;
+  align-content: center;
+     
+}
+.abebhailag1{
+  
+  font-weight: 900 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+.gradientl{
+  width: 100%;
+ 
+}
