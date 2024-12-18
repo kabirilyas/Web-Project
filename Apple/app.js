@@ -1,1 +1,0 @@
-alert("Thanks for visit my website");
