@@ -1,0 +1,690 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.text{
+     text-decoration: none;
+     color: rgb(51, 48, 48);
+}
+
+.navbar12k{
+width: 100%;
+height: 50px;
+/* background-color: transparent; */
+--r-globalnav-text-zoom-scale: 1;
+--globalnav-background: rgba(255, 255, 255, .8);
+background: var(--globalnav-background);
+align-items: center;
+position: sticky;
+top: 0;
+z-index: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+}
+
+.divsetkro{
+
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* position: absolute; */
+
+}
+
+.setthisimg{
+
+    width: 100%;
+    height: 600px;
+/* position: absolute; */
+/* bottom: 0; */
+/* left: 0; */
+/* z-index: 1; */
+}
+
+.iphonesetdiv{
+
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    
+}
+
+.iphoneset{
+    color: white !important;
+    font-size: 56px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.helloapple{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.setthis{
+font-size: 28px;
+font-weight: 400;
+color: white;
+display: flex;
+justify-content: center;
+}
+
+.btn1applediv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  align-items: center;
+  margin-top: 10px;
+/* position: absolute;
+z-index: 1; */
+
+
+}
+
+.onemoer{
+    display: flex;
+    gap: 20px;
+    /* position: absolute;
+    z-index: 1; */
+}
+
+.btn1apple{
+    font-weight: 300;
+    font-size: medium;
+    color: white;
+    background-color: #0071E3;
+    border: 1px solid #0071E3;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.btn1apple2{
+       font-weight: 300;
+       font-size: medium;
+       color: #0071E3;
+       background-color: transparent;
+       border: 1px solid #0071E3;
+       padding: 10px 20px;
+       border-radius: 40px;
+       cursor: pointer;
+}
+
+.btn1apple2:hover{
+
+    background-color: #0071E3;
+    color: white;
+
+
+}
+
+.one{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.btn1apple2ko{
+
+       font-weight: 300;
+       font-size: medium;
+       color: black;
+       background-color: white;
+       border: 1px solid white;
+       padding: 10px 20px;
+       border-radius: 40px;
+       cursor: pointer;
+   
+
+}
+
+.btn1apple22ko{
+
+       font-weight: 300;
+       font-size: medium;
+       color: white;
+       background-color: transparent;
+       border: 1px solid white;
+       padding: 10px 20px;
+       border-radius: 40px;
+       cursor: pointer;
+}
+
+.btn1apple22ko:hover{
+
+    background-color: white;
+    color: black;
+}
+
+.main{
+width: 100%;
+height: auto;
+display: flex;
+
+
+
+
+
+}
+.box{
+
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    line-height: 5px;
+    margin: 10px;
+    
+}
+
+.setimag{
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.logohaed{
+position: absolute;
+z-index: 1;
+padding-top: 40px;
+/* display: flex;
+justify-content: center; */
+
+}
+
+.insanban{
+    display: flex;
+    justify-content: center;
+}
+
+.twosizes{
+    margin-top: 8px;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    line-height: 1.19048;
+    justify-content: center;
+}
+
+.dono{
+    
+    margin-top: 8px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.btnnext1{
+    
+    font-weight: 300;
+    font-size: medium;
+    color: white;
+    background-color: #0071E3;
+    border: 1px solid #0071E3;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btnnext2{
+       font-weight: 300;
+       font-size: medium;
+       color: #0071E3;
+       background-color: transparent;
+       border: 1px solid #0071E3;
+       padding: 10px 20px;
+       border-radius: 40px;
+       cursor: pointer;
+}
+
+.btnnext2:hover{
+
+    background-color: #0071E3;
+    color: white;
+
+
+}
+
+.box2{
+
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    line-height: 5px;
+    margin: 10px;
+}
+
+.doisko{
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin-top: 53px;
+        color: white;
+    
+}
+
+.twosizes34{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 4px;
+    color: white;
+}
+
+.dono1{
+
+    margin-top: 8px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.btnnext112{
+    font-weight: 300;
+    font-size: medium;
+    color: white;
+    background-color: #0071E3;
+    border: 1px solid #0071E3;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btnnext212{
+       font-weight: 300;
+       font-size: medium;
+       color: #0071E3;
+       background-color: transparent;
+       border: 1px solid #0071E3;
+       padding: 10px 20px;
+       border-radius: 40px;
+       cursor: pointer;
+   
+}
+
+.btnnext212:hover{
+
+    background-color: #0071E3;
+    color: white;
+
+
+}
+.aguru{
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.box3{
+ width: 49%;
+display: flex;
+justify-content: center;
+align-items: end;
+line-height: 5px;
+margin: 10px;
+}
+
+.btnnext11290{
+       font-weight: 300;
+       font-size: medium;
+       color: black;
+       background-color: white;
+       border: 1px solid white;
+       padding: 10px 20px;
+       border-radius: 40px;
+       cursor: pointer;
+}
+
+.logohaed44{
+    position: absolute;
+    z-index: 1;
+    padding-top: 40px;
+}
+
+.insanban54{
+display: flex;
+justify-content: center;
+}
+
+.doiskoy87{
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin-top: 53px;
+        color: white;
+}
+
+.doiskothth{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: white;
+
+}
+
+.twosizesokbhi{
+
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 4px;
+    color: #f5f5f7;
+
+
+
+}
+
+
+
+.kabir{
+    /* margin-top: 10px; */
+    box-sizing: border-box;
+    border-style: solid;
+    overflow: visible;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 202, 202);
+    position: absolute;
+    
+ 
+}
+
+
+
+.item{ 
+    width: 70%;
+    display: flex ;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    
+
+
+}
+
+
+
+.sonad{
+    width: 100%;
+ 
+}
+
+.dako{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    color: white;
+    width: 60%;
+    margin: auto;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.streambtn{
+
+    font-weight: 300;
+    font-size: medium;
+    color:  black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.comedydiv{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dadoa{
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.abhidetamar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    margin: auto;
+    margin-right: 10px;
+
+}
+
+.mar12{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    
+}
+
+.img345{
+    width: 500px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.goku{
+    width: 100%;
+    background-color: #F5F5F7 ;
+}
+
+
+.giogio{
+width: 50%;
+height: auto;
+margin: auto;
+margin-top: 50px;
+background-color: #F5F5F7;
+
+}
+
+.giogio32{
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+   
+    width: 100%;
+    justify-content: center;
+
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.56);
+    --footer-background: rgb(245, 245, 247);
+    --footer-border-color: rgba(0, 0, 0, 0.16);
+    --footer-text-color: rgba(0, 0, 0, 0.56);
+    --footer-link-color: rgba(0, 0, 0, 0.72);
+    --footer-pipe-color: rgba(0, 0, 0, 0.48);
+    --footer-directory-title-color: rgba(0, 0, 0, 0.88);
+    --footer-directory-title-color-hover: #000;
+    --footer-directory-title-focus-offset: 4px;
+    --footer-section-border-color: var(--footer-border-color);
+    --footer-pipe-border: 1px solid var(--footer-pipe-color);
+    
+
+
+}
+li{
+   
+    padding: 10px;
+}
+.ullolo{
+    font-size: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+.onemint{
+    background-color: #F5F5F7;
+}
+
+.navbar98{
+
+    width: 50%;
+    /* background-color: #F5F5F7; */
+    display: flex;
+    margin: auto;
+
+
+}
+
+.navcss{
+width: 50%;
+height: 600px;
+margin: auto;
+background-color: #F5F5F7;
+border: 1px solid #F5F5F7;
+
+
+}
+
+.bhaiplzz{
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+   
+    width: 100%;
+    justify-content: center;
+
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.56);
+    /* line-height: 10px; */
+
+}
+
+.shopforl{
+    color: #000;
+    font-size: 13px;
+}
+
+.anchor1{
+    color: rgba(0, 0, 0, 0.56);
+    text-decoration: none;
+    cursor: pointer;
+    
+   
+
+}
+.anchor1:hover{
+
+    text-decoration: underline;
+}
+
+.shopforl2{
+    color: #000;
+    margin-top: 13px;
+    font-size: 13px;
+}
+
+.bhaiplzz li{
+    /* line-height: 15px; */
+    padding: 5px;
+}
+
+.kiakrome{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 13px;
+    width: 50%;
+    /* background-color: #F5F5F7; */
+    display: flex;
+    margin: auto;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+
+}
+
+.kiakrome12{
+
+
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 13px;
+    width: 50%;
+    /* background-color: #F5F5F7; */
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+
+
+.anchor12{
+color: rgba(0, 0, 0, 0.56);
+text-decoration: none;
+cursor: pointer;
+/* position: relative; */
+/* width: 70%; */
+margin: auto;
+/* left: 0; */
+/* right: 0; */
+
+
+}
+.anchor12:hover{
+
+text-decoration: underline;
+}
+
+
+
+
