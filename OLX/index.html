@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+      <!-- FontAwesome CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title> MY OLX </title>
+</head>
+<body>
+
+<header class="headerss">
+    
+  
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+        }
+
+        /* Header Top Row (Logo, Motors, Property) */
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 10px; /* Space between rows */
+        }
+
+        .logohead {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .motor {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Header Bottom Row (Dropdown, Search, Icons) */
+        .header-bottom {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .dropdown-container {
+            position: relative;
+        }
+
+        .location-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #888;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+            padding-left: 30px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-container {
+            display: flex;
+            flex: 2; /* Makes the search bar take up more space */
+            max-width: 800px; /* Increased maximum width */
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+
+        .search-button {
+            background-color: #002F34;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+        }
+
+        .search-button:hover {
+            background-color: #004C52;
+        }
+
+        /* Icons */
+        .icon {
+            font-size: 25px;
+            color: #555;
+            cursor: pointer;
+        }
+
+        .sell-button {
+            /* background-color: #FF5733; */
+
+            color: #002F34;
+            font-size: 16px;
+            border: 5px solid #23E5DB;
+            /* border-top: red;
+            border-right: green;
+            border-left: blue;
+            border-bottom: white; */
+            font-weight: 800;
+            border-radius: 50px;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .sell-button:hover {
+            /* background-color: #E64C28; */
+        }
+
+        .profile-icon {
+            font-size: 35px;
+            color: white;
+            background-color: #0C7B93;
+            border-radius: 50%;
+            padding: 10px;
+        }
+
+        .bell-icon:hover, .message-icon:hover {
+            color: #0C7B93;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Top Row: Logo and Navigation Links -->
+    <div class="header-top">
+        <div class="logohead">
+            <a href="#" class="logoolx">
+                <img src="./olx logo.png" alt="OLX Logo" width="60px">
+            </a>
+            <a href="#" class="d-flex gap-2 align-items-center motor">
+                <img src="https://png.pngtree.com/png-clipart/20190619/original/pngtree-vector-car-icon-png-image_3989896.jpg" alt="Motors" width="40px">
+                <span>Motors</span>
+            </a>
+            <a href="#" class="d-flex gap-2 align-items-center motor">
+                <img src="./images.png" alt="Property" width="40px">
+                <span>Property</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Bottom Row: Dropdown, Search, Icons, Profile, SELL Button -->
+    <div class="header-bottom">
+        <!-- Dropdown -->
+        <div class="dropdown-container">
+            <i class="fas fa-map-marker-alt location-icon"></i>
+            <select>
+                <option value="pakistan">Pakistan</option>
+                <option value="karachi">Karachi</option>
+                <option value="lahore">Lahore</option>
+                <option value="islamabad">Islamabad</option>
+            </select>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" placeholder="Find Cars, Mobile Phones and more..." />
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+
+        <!-- Notification Icons -->
+        <i class="fas fa-bell icon bell-icon"></i>
+        <i class="fas fa-comment-alt icon message-icon"></i>
+
+        <!-- Profile Icon -->
+        <i class="fas fa-user profile-icon"></i>
+
+        <!-- Sell Button -->
+        <button class="sell-button">
+            <i class="fas fa-plus"></i> SELL
+        </button>
+    </div>
+</header>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+<selecter>
+      
+
+
+ 
+
+    <hr class="dodo">
+
+
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>White Navbar with "All Categories"</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome for Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            /* Navbar Styles */
+            .navbar-custom {
+                background-color: white; /* White Background */
+                padding: 10px 20px;
+                /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); Add shadow for slight elevation */
+            }
+    
+            /* Light Links */
+            .navbar-nav .nav-link {
+                color: #212529; /* Dark text color */
+                font-size: 16px;
+                font-weight: 500;
+                margin-right: 15px;
+            }
+    
+            .navbar-nav .nav-link:hover {
+                color: #0C7B93; /* Hover effect */
+            }
+    
+            /* Dark "All Categories" Link */
+            .all-categories {
+                color: #212529 !important; /* Dark Text */
+                background-color: #f8f9fa; /* Light background for contrast */
+                border-radius: 5px;
+                padding: 5px 10px;
+                font-weight: bold; /* Make text bold */
+            }
+    
+            .all-categories:hover {
+                background-color: #e2e6ea; /* Slight hover effect */
+                color: #0C7B93 !important; /* Blue text on hover */
+            }
+    
+            /* Dropdown Dark Theme */
+            .dropdown-menu {
+                background-color: #212529; /* Darker Background */
+                border: none;
+                border-radius: 5px;
+            }
+    
+            .dropdown-item {
+                color: #f8f9fa;
+                font-size: 15px;
+            }
+    
+            .dropdown-item:hover {
+                background-color: #343a40; /* Slightly lighter hover */
+                color: #0C7B93;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <!-- Toggler for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <!-- Dark "All Categories" Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle all-categories" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            All Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mobile Phones</a></li>
+                            <li><a class="dropdown-item" href="#">Cars</a></li>
+                            <li><a class="dropdown-item" href="#">Motorcycles</a></li>
+                            <li><a class="dropdown-item" href="#">Houses</a></li>
+                            <li><a class="dropdown-item" href="#">Video-Audios</a></li>
+                            <li><a class="dropdown-item" href="#">Tablets</a></li>
+                            <li><a class="dropdown-item" href="#">Land & Plots</a></li>
+                        </ul>
+                    </li>
+    
+                    <!-- Static Categories Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mobile Phones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Motorcycles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Houses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Video-Audios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tablets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Land & Plots</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+    
+
+</selecter>
+
+
+
+
+
+    <div class="setthisimage">
+<img src="https://images.olx.com.pk/thumbnails/508090894-800x600.webp" alt="" class="telenorpic">
+    </div>
+
+
+
+
+    
+    <h2 class="categories">All categories</h2>
+
+    <div class="category-container">
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/mobiles.8c768c96bfde33f18fcf5af2a8b9cf71.png" alt="" class="logoimage1">
+            <h4 class="mo1">Mobiles</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/vehicles.29fb808d5118f0db56f68a39ce5392e2.png" alt="" class="logoimage">
+            <h4 class="mo1">Vehicles</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png" alt="" class="logoimage">
+            <h4 class="mo1">Property for Sale</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/property-for-rent.8436595fbaa90d47f0178006f57090a8.png" alt="" class="logoimage">
+            <h4 class="mo1">Property for Rent</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png" alt="" class="logoimage">
+            <h4 class="mo1">Electronics & Home Appliances</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png" alt="" class="logoimage">
+            <h4 class="mo1">Bikes</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/business-industrial-agriculture.704a6ffb9081bc94b11c102cc613670f.png" alt="" class="logoimage">
+            <h4 class="mo1">Business, Industrial & Agriculture</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/services.dc6aef196c0403dc61b0ee813f66fa5b.png" alt="" class="logoimage">
+            <h4 class="mo1">Services</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/jobs.79e6136dda02111cf8e7afe26b9e0f93.png" alt="" class="logoimage">
+            <h4 class="mo1">Jobs</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/animals.62d396e85f7523dbc8ff23889fdd5c31.png" alt="" class="logoimage">
+            <h4 class="mo1">Animals</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png" alt="" class="logoimage">
+            <h4 class="mo1">Furniture & Home Decor</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png" alt="" class="logoimage">
+            <h4 class="mo1">Fashion & Beauty</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png" alt="" class="logoimage">
+            <h4 class="mo1">Books, Sports & Hobbies</h4>
+        </div>
+    
+        <div class="category-item">
+            <img src="https://www.olx.com.pk/assets/kids.cd8d8864804f1c35dd6a7df68268a48d.png" alt="" class="logoimage">
+            <h4 class="mo1">Kids</h4>
+        </div>
+    </div>
+    
+    <style>
+        .category-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 35px; /* 15px gap between all elements */
+        }
+    
+        .category-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 150px; /* Optional: Add a max width to keep items uniform */
+        }
+    
+        .category-item img {
+            max-width: 80px; /* Increased image size */
+            margin-bottom: 10px; /* Spacing below the image */
+        }
+    
+        .category-item h4 {
+            font-size: 14px;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+    
+    
+    
+    
+    <h2 class="categories">Mobile Phones</h2>
+
+    <div class="cardset">
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/507761910-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">RS 25,000</h5>
+                <p class="card-text">Samsung A32 5G</p>
+                <p class="card-text"> Bahria Town Phase 8, Rawalpindi</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/507761910-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">RS 25,000</h5>
+                <p class="card-text">Samsung A32 5G</p>
+                <p class="card-text">Bahria Town Phase 8, Rawalpindi</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/507761910-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">RS 25,000</h5>
+                <p class="card-text">Samsung A32 5G</p>
+                <p class="card-text">Bahria Town Phase 8, Rawalpindi</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/507761910-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">RS 25,000</h5>
+                <p class="card-text">Samsung A32 5G</p>
+                <p class="card-text">Bahria Town Phase 8, Rawalpindi</p>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        .cardset {
+            display: flex;
+            gap: 10px; /* 10px gap between each card */
+            overflow-x: auto; /* Allow horizontal scrolling if cards overflow the container */
+            padding: 10px; /* Optional padding around the container */
+        }
+    
+        .card {
+            flex: 0 0 auto; /* Ensure cards don’t shrink and are spaced out equally */
+            width: 18rem; /* Keep the card width consistent */
+            border: 1px solid #ddd; /* Optional: Add a border to make the cards stand out */
+            border-radius: 5px; /* Optional: Rounded corners for better visuals */
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+        }
+    
+        .card-img-top {
+            border-radius: 5px 5px 0 0; /* Rounded top corners for the image */
+        }
+    
+        .card-body {
+            padding: 10px; /* Add padding inside the card body */
+            /* text-align: center; Center align the text */
+        }
+    
+        /* .categories {
+            margin-bottom: 15px; Add some space below the heading
+            font-size: 20px; Adjust heading size
+            font-weight: bold;
+            text-align: center;
+        } */
+    </style>
+    
+
+
+    <h2 class="categories">cars </h2>
+    <div class="cardset">
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/505436272-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">RS 1,230,000</h5>
+                <p class="card-text">Toyota Fortuner G 2019</p>
+                <p class="card-text">Margalla Town, Islamabad</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/505436272-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">RS 1,984,000</h5>
+                <p class="card-text">Toyota Fortuner G 2019</p>
+                <p class="card-text">Margalla Town, Islamabad</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/506014608-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">RS 1,000,000</h5>
+                <p class="card-text">KIA Sportage 2022 2012</p>
+                <p class="card-text">Cavalry Ground, Lahore</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/506014608-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">RS 1,980,000</h5>
+                <p class="card-text">KIA Sportage 2022 2012</p>
+                <p class="card-text">Cavalry Ground, Lahore</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+
+
+
+    <h2 class="categories">Bikes & Motorcycles </h2>
+    <div class="cardset">
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/508320621-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 490,000</h5>
+                <p class="card-text">Yamaha YBR 125G 10/10 conditions</p>
+                <p class="card-text">PECHS, Karachi</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/508320621-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 540,000</h5>
+                <p class="card-text">Yamaha YBR 125G 10/10 conditions</p>
+                <p class="card-text">PECHS, Karachi</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/508232707-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 370,000</h5>
+                <p class="card-text">Yamaha YBR 125G</p>
+                <p class="card-text">Gulshan-e-Ravi, Lahore </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/508232707-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 500,000</h5>
+                <p class="card-text">Yamaha YBR 125G</p>
+                <p class="card-text">Gulshan-e-Ravi, Lahore </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <h2 class="categories">Houses </h2>
+    <div class="cardset">
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/503339174-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 11,500,000</h5>
+                <p class="card-text">5 mrla house available for sale vvip location</p>
+                <p class="card-text">New Shalimar Colony, Multan</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/503339174-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 11,500,000</h5>
+                <p class="card-text">5 mrla house available for sale vvip location</p>
+                <p class="card-text">New Shalimar Colony, Multan</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/503364155-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 14,000,000</h5>
+                <p class="card-text">7 Marla Single Unit House For Sale In Gulshan E Sehat E-18 Hamza Block</p>
+                <p class="card-text">Gulshan-e-Sehat 1, Islamabad </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/503364155-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 14,000,000</h5>
+                <p class="card-text">7 Marla Single Unit House For Sale In Gulshan E Sehat E-18 Hamza Block</p>
+                <p class="card-text">Gulshan-e-Sehat 1, Islamabad </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <h2 class="categories">Video-Audios </h2>
+    <div class="cardset">
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/506587631-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 55,000</h5>
+                <p class="card-text">japanese Panasonic Amplifier and Subwoofers</p>
+                <p class="card-text">Saddar, Lahore</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/506587631-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 55,000</h5>
+                <p class="card-text">japanese Panasonic Amplifier and Subwoofers</p>
+                <p class="card-text">Saddar, Lahore</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/448042514-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 10,000</h5>
+                <p class="card-text">Hiking Items | Walkie Talkie | Wireless set | Kenwod | Motorola</p>
+                <p class="card-text">Others, Sialkot </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.olx.com.pk/thumbnails/448042514-800x600.webp" class="card-img-top" alt="..." height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Rs 10,000</h5>
+                <p class="card-text">Hiking Items | Walkie Talkie | Wireless set | Kenwod | Motorola</p>
+                <p class="card-text">Others, Sialkot </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+        <h2 class="categories">Tablets</h2>
+        <div class="cardset">
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/508013758-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Rs 33,499</h5>
+                    <p class="card-text">Lenovo Tablet P11 6gb Ram 128gb Rom 11 Inches Display Snapdragon 662</p>
+                    <p class="card-text">Gulshan-e-Iqbal Town, Karachi</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/508013758-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Rs 33,499</h5>
+                    <p class="card-text">Lenovo Tablet P11 6gb Ram 128gb Rom 11 Inches Display Snapdragon 662</p>
+                    <p class="card-text">Gulshan-e-Iqbal Town, Karachi</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/505269387-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Rs 8,999</h5>
+                    <p class="card-text">Lenovo Tablets Huge Quantity. Big Clearance Sale.</p>
+                    <p class="card-text">Hall Road, Lahore</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/505269387-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Rs 8,999</h5>
+                    <p class="card-text">Lenovo Tablets Huge Quantity. Big Clearance Sale.</p>
+                    <p class="card-text">Hall Road, Lahore</p>
+                </div>
+            </div>
+        </div>
+ 
+
+
+
+
+        
+        <h2 class="categories">Land & Plots</h2>
+        <div class="cardset">
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/503841587-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Rs 3,500,000</h5>
+                    <p class="card-text">5 Marla Residential Plot Up For sale In MPCHS - Block G</p>
+                    <p class="card-text">MPCHS - Block G, Islamabad</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/503841587-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Rs 3,500,000</h5>
+                    <p class="card-text">5 Marla Residential Plot Up For sale In MPCHS - Block G</p>
+                    <p class="card-text">MPCHS - Block G, Islamabad</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/507644797-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Rs 6,000,000</h5>
+                    <p class="card-text">10 Marla Plots in E-1 Block, Bahria Town Phase 8 Prime Location Near Main Expressway</p>
+                    <p class="card-text">Bahria Town Phase 8 - Sector E-1, Rawalpindi</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/507644797-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <h5 class="card-title">Rs 6,000,000</h5>
+                    <p class="card-text">10 Marla Plots in E-1 Block, Bahria Town Phase 8 Prime Location Near Main Expressway</p>
+                    <p class="card-text">Bahria Town Phase 8 - Sector E-1, Rawalpindi</p>
+                </div>
+            </div>
+        </div>
+ 
+
+
+
+
+
+        <h2 class="categories">Jobs</h2>
+        <div class="cardset">
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/506497136-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Rs 3,500,000</h5> -->
+                    <p class="card-text">Typing job / Data Entry Job / Assignment Job / Online Job / Part Time</p>
+                    <p class="card-text">Mughalpura, Lahore</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/506497136-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Rs 3,500,000</h5> -->
+                    <p class="card-text">Typing job / Data Entry Job / Assignment Job / Online Job / Part Time</p>
+                    <p class="card-text">Mughalpura, Lahore</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/504278346-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Rs 6,000,000</h5> -->
+                    <p class="card-text">Call center Urdu and English/part-time Jobs/ Male and female in Lahore</p>
+                    <p class="card-text">Muslim Town, Lahore</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="https://images.olx.com.pk/thumbnails/504278346-800x600.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Rs 6,000,000</h5> -->
+                    <p class="card-text">Call center Urdu and English/part-time Jobs/ Male and female in Lahore</p>
+                    <p class="card-text">Muslim Town, Lahore</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+</header>
+
+
+
+<div class="lastimag">
+    <img src="https://tpc.googlesyndication.com/simgad/6155991550825742807" alt="" class="imageset12">
+</div>
+
+
+           
+<main class="mainset">
+
+
+
+    <style>
+        /* CSS Styling */
+        .ffff {
+            width: 100%;
+            background-color: #f9f9f9;
+            padding: 0 0;
+            padding-top: 20px;
+            border-bottom: 1px solid #504f4f;
+        }
+    
+        .footer-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+    
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .footer-image img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .footer-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .trythe {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 10px 0;
+            color: #292F34;
+        }
+    
+        .parafoot {
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 5px;
+            line-height: 1.5;
+            color: #292F34;
+        }
+    
+        .verticalline{
+            background-color: rgba(0, 47, 52, .2);
+            height: 10.6rem;
+            margin: 0 auto;
+            width: .2rem;
+        }
+
+        .Getthis{
+            font-size: 15px;
+            font-weight: 600;
+            color: #292F34;
+            padding: 10px 0px;
+            margin-bottom: 5px;
+        }
+
+        .logoimage{
+            width: 13vh;
+            cursor: pointer;
+        }
+    </style>
+    </head>
+    <body>
+    <footer class="ffff">
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-image">
+                    <img 
+                        src="./olxMobileApp.f5579f77e849b600ad60857e46165516.webp" 
+                        alt="OLX Mobile App Image" 
+                        class="image-tooto">
+                </div>
+                <div class="footer-text">
+                    <h2 class="trythe">Try the OLX app</h2>
+                    <p class="parafoot">Buy, sell and find just about anything using the app on your mobile.</p>
+                </div>
+                <div class="verticalline"></div>
+                <div class="footer-text">
+                    <h3 class="Getthis">Get your app today</h3>
+                    <div class="d-flex gap-2 ">
+                        <img src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" alt="" class="logoimage">
+                        <img src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" alt="" class="logoimage">
+                        <img src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" alt="" class="logoimage">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.0;
+            background-color: #EBEEEF; /* Set the background color for the entire page */
+            color: #333;
+            /* margin-top: 0; */
+        }
+    
+        /* Container for the navigation sections */
+        .onemint {
+            padding: 20px 0;
+            
+        }
+    
+        .navbar98 {
+            width: 90%; /* Adjusted for more space */
+            display: flex;
+            justify-content: space-between; /* Distribute the sections evenly */
+            align-items: flex-start;
+            margin: 0 auto;
+            flex-wrap: nowrap; /* Ensure items stay in a single line */
+        }
+    
+        .navcss {
+            width: 18%; /* Each section takes up 18% of the width */
+            padding: 5px; /* Further reduced padding inside each section */
+            box-sizing: border-box;
+            margin-right: 2px; /* Further reduced gap between sections */
+        }
+    
+        /* List styles for navigation links */
+        .bhaiplzz {
+            list-style: none;
+        }
+    
+        .shopforl,
+        .shopforl2 {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 8px; /* Reduced bottom margin */
+            color: #292F34;
+        }
+    
+        .anchor1 {
+            color: #555;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            padding: 3px 0; /* Reduced padding between items */
+        }
+    
+        .anchor1:hover {
+            color: #000;
+        }
+
+        .logoimagekabir{
+            width: 10vh;
+            cursor: pointer;
+
+        }
+
+        .apple{
+            cursor: pointer;
+        }
+    
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .navbar98 {
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+            }
+    
+            .navcss {
+                width: 90%; /* Expand sections to fit on smaller screens */
+                margin-bottom: 5px; /* Further reduced gap for smaller screens */
+            }
+        }
+    
+    </style>
+    
+    
+
+<body>
+
+<div class="onemint">
+    <div class="navbar98">
+
+        <!-- First Section -->
+        <div class="navcss">
+            <ol class="bhaiplzz">
+                <li><h3 class="shopforl">Popular Categories</h3></li>
+                <li><a href="#" class="anchor1">Cars</a></li>
+                <li><a href="#" class="anchor1">Flats for rent</a></li>
+                <li><a href="#" class="anchor1">Mobile Phones</a></li>
+                <li><a href="#" class="anchor1">Jobs</a></li>
+                
+            </ol>
+        </div>
+
+        <!-- Second Section -->
+        <div class="navcss">
+            <ol class="bhaiplzz">
+                <li><h3 class="shopforl2">Trending Searches</h3></li>
+                <li><a href="#" class="anchor1">Bikes</a></li>
+                <li><a href="#" class="anchor1">Watches</a></li>
+                <li><a href="#" class="anchor1">Books</a></li>
+                <li><a href="#" class="anchor1">Dogs</a></li>
+            </ol>
+        </div>
+
+        <!-- Third Section -->
+        <div class="navcss">
+            <ol class="bhaiplzz">
+                <li><h3 class="shopforl2">About Us</h3></li>
+                <li><a href="#" class="anchor1">About Dubizzle Group</a></li>
+                <li><a href="#" class="anchor1">OLX Blog</a></li>
+                <li><a href="#" class="anchor1">Contact Us</a></li>
+                <li><a href="#" class="anchor1">OLX for Businesses</a></li>
+            </ol>
+        </div>
+
+        <!-- Fourth Section -->
+        <div class="navcss">
+            <ol class="bhaiplzz">
+                <li><h3 class="shopforl2">OLX</h3></li>
+                <li><a href="#" class="anchor1">Help</a></li>
+                <li><a href="#" class="anchor1">Sitemap</a></li>
+                <li><a href="#" class="anchor1">Terms of use</a></li>
+                <li><a href="#" class="anchor1">Privacy Policy</a></li>
+               
+            </ol>
+        </div>
+
+
+        <div class="follow"> 
+            <h3 class="shopforl2">FOLLOW US</h3>
+            <div class="othericons">
+                <img src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg" alt="" width="30px" class="apple">
+                 <img src="https://www.olx.com.pk/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg" alt="" width="30px" class="apple">
+                 <img src="https://www.olx.com.pk/assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg" alt="" width="30px" class="apple">
+                 <img src="https://www.olx.com.pk/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg" alt="" width="30px" class="apple">
+            </div>
+            <div class="d-flex gap-2 pt-4 pb-2 ">
+                <img src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" alt="" class="logoimagekabir">
+                <img src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" alt="" class="logoimagekabir">
+                <img src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" alt="" class="logoimagekabir">
+            </div>
+        </div>
+
+
+
+
+    
+</body>
+
+
+
+
+
+</main>
+
+
+
+
+<div class="lastdiv">
+    <div class="findkakuch">
+       <h5 class="pakistan">Free Classifieds in Pakistan</h5> 
+       <p class="kamal">. © 2006-2024 OLX</p>
+        
+    </div>
+</div>
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</html>

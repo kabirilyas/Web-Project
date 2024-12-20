@@ -1,0 +1,226 @@
+*{
+    /* background-color: #EBEEEF; */
+  
+  }
+
+
+
+  
+  .headerss{
+  
+      width: 70%;
+      /* height: 80px; */
+      margin: auto;
+      /* background-color: hsl(0, 90%, 49%); */
+      /* display: flex; */
+      align-items: center !important;
+      background-color: white;
+  }
+  
+  
+   /* General Styling */
+   body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  
+  header {
+      background-color: #f8f9fa;
+      padding: 10px 20px;
+  }
+  
+  /* Header Top Row (Logo, Motors, Property) */
+  .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 10px; /* Space between rows */
+  }
+  
+  .logohead {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  
+  .motor {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+  }
+  
+  /* Header Bottom Row (Dropdown, Search, Icons) */
+  .header-bottom {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+  }
+  
+  .dropdown-container {
+      position: relative;
+  }
+  
+  .location-icon {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #888;
+  }
+  
+  select {
+      padding: 10px;
+      font-size: 16px;
+      width: 200px;
+      padding-left: 30px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+  }
+  
+  .search-container {
+      display: flex;
+      flex: 2; /* Makes the search bar take up more space */
+      max-width: 800px; /* Increased maximum width */
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+  }
+  
+  
+  input[type="text"] {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      outline: none;
+  }
+  
+  .search-button {
+      background-color: #002F34;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+  }
+  
+  .search-button:hover {
+      background-color: #004C52;
+  }
+  
+  /* Icons */
+  .icon {
+      font-size: 25px;
+      color: #555;
+      cursor: pointer;
+  }
+  
+  .sell-button {
+      /* background-color: #FF5733; */
+  
+      color: #002F34;
+      font-size: 16px;
+      border: 5px solid #23E5DB;
+      /* border-top: red;
+      border-right: green;
+      border-left: blue;
+      border-bottom: white; */
+      font-weight: 800;
+      border-radius: 50px;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+  }
+  
+  .sell-button:hover {
+      /* background-color: #E64C28; */
+  }
+  
+  .profile-icon {
+      font-size: 35px;
+      color: white;
+      background-color: #0C7B93;
+      border-radius: 50%;
+      padding: 10px;
+  }
+  
+  .bell-icon:hover, .message-icon:hover {
+      color: #0C7B93;
+  }
+  
+  
+  
+  .setthisimage{
+      width: 100%;
+      margin-top: 10px ;
+     
+  }
+  .telenorpic{
+      width: 100%;
+      border-radius: 10px;
+  }
+  
+  .categories{
+  
+      padding-top: 35px;
+      padding-bottom: 20px;
+      color: #292F34;
+      font-size: 25px;
+      font-weight: 700;
+  }
+  
+  
+.lastimag{
+    padding-top: 10px;
+    width: 50%;
+    margin: auto;
+    
+}  
+
+.imageset12{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.lastdiv{
+
+    background-color: #002F34;
+    width: 100%;
+    height: 50px;
+
+}
+
+.findkakuch{
+
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+    
+ }
+
+.pakistan{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+
+}
+    
+.kamal{
+    color: white;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 100;
+    align-content: center;
+}
+
+    
+
+
