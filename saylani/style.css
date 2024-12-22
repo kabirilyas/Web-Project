@@ -1,0 +1,361 @@
+body{
+    margin-top: 0px;
+}
+.formheader{
+    width: 85%;
+    /* min-width: 265px; */
+    margin : 0px auto;
+}
+
+
+.formheader
+.header{
+    /* margin : 0px auto;
+    background-image: url("./Images/bg.jpg"), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    background-size:cover;
+    background-size:contain;
+    background-repeat:repeat;
+    background-position:top;
+    background-attachment:fixed;  
+     background-color: lightblue; */
+    background-color: rgba(52, 145, 91, 0.4);
+    /* opacity: 0.5;  */
+ /* color:rgb(9, 125, 179); */
+    width: 100%;
+    height: 190px;
+}
+
+.formheader
+.header
+.divlogo{ 
+    margin : 0px auto;
+    width: 100%;
+    /* height: 50px; */
+    /* background-color: rgb(240, 238, 238); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formheader
+.header
+.divlogo
+img{ 
+    width: 25%;
+}
+
+.formheader
+.header
+.divheading{
+    margin: 0px auto;
+    width: 85%;
+}
+
+.divheading
+a,
+.divheading
+h1,
+.divheading
+button{
+    display: inline-block;
+}
+
+.divheading
+a{
+    margin-left: 2%;
+}
+
+.divheading
+h1{
+    margin-left: 13%;
+    color: black;
+}
+
+.divheading
+p{
+    color: black;
+}
+
+.divheading
+button{
+    margin-left: 13%;
+    width: 150px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.divheading
+a 
+img{
+    width: 30px;
+    height: 30px;
+}
+
+.divheading
+p{
+    margin: 0px auto;
+    text-align: center;
+}
+
+.formheader
+.headerlinks{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.formheader
+.headerlinks
+a{
+    text-decoration: none;
+}
+
+.formheader
+.headerlinks
+a:focus{
+    color: black;
+}
+
+.formheader
+.headerlinks
+.blank1{
+    border-top: none;
+    border-right: none;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    width: 38%;
+    height: 100%;
+    background-color: white;
+}
+
+.formheader
+.headerlinks
+.registration{
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: none;
+    width: 8%;
+    height: 100%;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(75, 240, 75);
+}
+
+.formheader
+.headerlinks
+.downloadIDCard{
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: none;
+    border-bottom: 1px solid lightgray;
+    width: 140px;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    color:rgb(9, 125, 179);
+}
+
+/* .formheader
+.headerlinks
+.downloadIDCard
+a{
+    width: 100%;
+    height: 100%;
+} */
+
+.formheader
+.headerlinks
+.results{
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: none;
+    border-bottom: 1px solid lightgray;
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    color:rgb(9, 125, 179);
+}
+
+/* .formheader
+.headerlinks
+.results
+a{
+    width: 100%;
+    height: 100%;
+} */
+
+.formheader
+.headerlinks
+.blank2{
+    border-top: none;
+    border-right: none;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: none;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+}
+
+.formbody{
+    width: 85%;
+    /* min-width: 265px; */
+    margin : 15px auto;
+}
+
+form{
+    width: 80%;
+    margin : 5px auto;
+    /* border: 1px solid red; */
+}
+
+#divsubbody1,#divsubbody2,#divsubbody3,#divsubbody4,#divsubbody5,#divsubbody6{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    margin: 0px auto;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#spanbody1,#spanbody2,#spanbody3,#spanbody4,#spanbody5,#spanbody6,
+#spanbody7,#spanbody8,#spanbody9,#spanbody10,#spanbody11,#spanbody12{
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+}
+
+input{
+    /* width: 460px; */
+    width: 99%;
+    height: 50px;
+    border: 1px solid rgb(31, 175, 31);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+select{
+    /* width: 465px; */
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(31, 175, 31);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input:focus ,select:focus{
+    /* border: 0.1px solid; */
+    outline-color: rgb(9, 125, 179);
+}
+
+#divsubbody7
+input{
+    width: 99%;
+    height: 50px;
+    border: 1px solid rgb(31, 175, 31);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#divsubbody8
+select,
+#divsubbody9
+select
+{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(31, 175, 31);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+#divsubbody7
+input:focus,
+#divsubbody8
+select,
+#divsubbody9
+select{
+    outline-color: rgb(9, 125, 179);
+}
+
+
+#divsubbody10
+input{
+    border: none;
+    width: 200px;
+}
+
+#divsubbody10
+#spanbody14
+p{
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+form
+#divsubbody10{
+    display: flex;
+}
+
+
+label{
+    /* color: rgba(52, 52, 230, 0.719); */
+    color: rgb(9, 125, 179);
+    /* margin-top: 10px; */
+}
+
+#spanbody2,#spanbody4,#spanbody6,#spanbody8,#spanbody10,#spanbody12{
+    margin-left: 30px;
+}
+
+#divsubbody11 ol li{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#divsubbody12 button{
+    color: white;
+    background-color: rgb(9, 125, 179);
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#divsubbody10{
+    width: 100%;
+    align-items: center;
+}
+
+#spanbody13{
+    width: 10%;
+}
+
+#spanbody13 p{
+    width: 90%;
+    height: 90px;
+    border: 1px dotted;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
