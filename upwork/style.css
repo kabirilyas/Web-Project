@@ -1,0 +1,1111 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    /* margin-top: 500px; */
+}
+
+
+
+.navbar {
+    display: flex;
+    
+    margin-top: 20px;
+    
+}
+.navlist {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    /* margin-right: 800px; */
+    top: 5px;
+    gap: 30px;
+    /* margin-right: 430px; */
+    left: 110px;
+    
+}
+.navlist li:hover {
+    /* text-decoration: underline; */
+    color: lightgreen;
+    cursor: pointer;
+    
+}
+
+.twodiv {
+    display: flex;
+    position: absolute;
+    width: 35%;
+    height: 50px;
+    gap: 10px;
+    border-radius: 30px;
+    border-color: white;
+    background-color: black;
+    left: 410px;
+    top: 550px;
+    position: fixed;
+    z-index: 1000;
+
+}
+
+
+
+
+
+.btt1 {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    width: 45%;
+}
+.btt1:hover {
+    background-color: rgb(97, 164, 4);
+}
+
+.btt2 {
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 40%;
+}
+.btt2:hover {
+    background-color: rgb(97, 164, 4);
+}
+.img1 {
+    position: absolute;
+    left: 10px;
+    /* margin-top:9px ; */
+    cursor: pointer;
+    top: 5px;
+}
+
+.sbar {
+    position: absolute;
+    top: 0px;
+    left: 760px;
+    border-radius: 20px;
+    height: 40px;
+    width: 20%;
+    border-color: none;
+}
+
+.btn1 {
+    position: absolute;
+    border-radius:20px ;
+    width: 80px;
+    height: 44px;
+    border-color: white;
+    background-color: white;
+    left: 1030px;
+    border: 0cap;
+    margin-top: 15px;
+}
+
+.btn2 {
+    border-radius: 15px;
+    width: 110px;
+    height: 44px;
+    background-color: green;
+    position: absolute;
+    left: 1140px;
+    color: white;
+    border: 0cap;
+    margin-top: 15px;
+}
+.btn2:hover {
+   background-color: lightgreen;
+    cursor: pointer;
+}
+
+.nav2 {
+    display: flex;
+  
+}
+
+.navli {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+   
+}
+.navli li:hover {
+    color: lightgreen;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.para1 {
+    display: flex;
+}
+
+.p1 {
+
+    position: absolute;
+    font-size: 80px;
+    left: 40px;
+    top: 210px;
+}
+
+.p2 {
+    position: absolute;
+    font-size: 80px;
+    left: 40px;
+    top: 290px;
+}
+
+.img2 {
+    position: absolute;
+    /* height: 300px;
+    width: 320px; */
+    left: 750px;
+}
+
+.p11 {
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    color: grey;
+}
+
+.p22 {
+    position: absolute;
+    top: 430px;
+    left: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    color: grey;
+}
+
+.bt3 {
+    position: absolute;
+    border-radius: 15px;
+    background-color: forestgreen;
+    color: white;
+    width: 150px;
+    height: 44px;
+    border: 0cap;
+    left: 40px;
+    top: 490px;
+}
+
+.bt3:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+.pg2 {
+    display: flex;
+}
+
+.ebox {
+    margin-left: 40px;
+    height: 400px;
+    width: 38%;
+    border-radius: 10px;
+    background-color: rgb(202, 206, 206);
+    margin-top: 380px;
+
+}
+
+.echild {
+    margin-left: 75px;
+    height: 190px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 100px;
+    
+
+}
+
+.pch {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pchh {
+    margin-left: 0px;
+    display: flex;
+    gap: 50px;
+}
+
+.chbtn {
+    margin-left: 220px;
+    margin-top: 60px;
+    border-radius: 20px;
+    width: 33%;
+    height: 30px;
+    background-color: green;
+    border: 0;
+    color: white;
+
+}
+
+.echp {
+    margin-top: 380px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.pt1 {
+    margin-top: 22px;
+    margin-left: 50px;
+}
+.ptt1 {
+    margin-top: 1px;
+    margin-left: 50px;
+}
+
+.ppt1 {
+    margin-top: 22px;
+    margin-left: 50px;
+
+}
+.ptt2 {
+    margin-top: 1px;
+    margin-left: 50px;
+
+}
+
+.pt2 {
+    margin-top: 22px;
+    margin-left: 50px;
+
+}
+
+.ptt3 {
+    margin-top: 1px;
+    margin-left: 50px;
+
+}
+.ntb1 {
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    border: 0cap;
+    width: 190px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.ntb2 {
+    border-radius: 10px;
+    color: green;
+    background-color: white;
+    width: 190px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-color: green;
+
+}
+
+.ntb1:hover {
+    background-color: lightgreen;
+}
+.ntb2:hover {
+    background-color: aliceblue;
+}
+
+
+
+.pg3h1 {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.pg3h1p {
+    margin-left: 40px;
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+}
+
+.sp1 {
+    color: green;
+    text-decoration: underline;
+}
+
+.sp1:hover {
+    color: rgb(150, 206, 150);
+    cursor: pointer;
+
+}
+
+.cards {
+    display: flex;
+}
+
+.c1bt1 {
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 0cap;
+    background-color: rgb(227, 226, 226);
+    margin-top: 40px;
+    width: 20%;
+    height: 130px;
+
+}
+
+
+.pc2 {
+   word-spacing: 25px;
+   margin-right: 60px;
+   margin-left: 0px;
+}
+
+.c1bt1:hover {
+    background-color: grey;
+}
+
+
+.c1bt2 {
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 0cap;
+    background-color: rgb(227, 226, 226);
+    margin-top: 40px;
+    width: 20%;
+    height: 130px;
+}
+
+.c1bt2:hover {
+    background-color: grey;
+}
+
+.c1bt3 {
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 0cap;
+    background-color: rgb(227, 226, 226);
+    margin-top: 40px;
+    width: 20%;
+    height: 130px;
+}
+.c1bt3:hover {
+    background-color: grey;
+}
+
+.c1bt4  {
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 0cap;
+    background-color: rgb(227, 226, 226);
+    margin-top: 40px;
+    width: 20%;
+    height: 130px;
+}
+.c1bt4:hover {
+    background-color: grey;
+}
+
+.pc1 {
+    margin-right: 60px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+.c1bt5 {
+        margin-left: 40px;
+        border-radius: 10px;
+        border: 0cap;
+        background-color: rgb(227, 226, 226);
+        margin-top: 40px;
+        width: 20%;
+        height: 130px;
+}
+
+.c1bt5:hover {
+    background-color: grey;
+}
+.pc11 {
+    margin-right: 140px;
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+
+.c1bt6 {
+    margin-left: 27px;
+    border-radius: 10px;
+    border: 0cap;
+    background-color: rgb(227, 226, 226);
+    margin-top: 40px;
+    width: 20%;
+    height: 130px;
+}
+
+
+.c1bt6:hover {
+    background-color: grey;
+}
+
+
+.c1bt7 {
+    margin-left: 27px;
+    border-radius: 10px;
+    border: 0cap;
+    background-color: rgb(227, 226, 226);
+    margin-top: 40px;
+    width: 20%;
+    height: 130px;
+}
+.c1bt7:hover {
+    background-color: grey;
+}
+
+.c1bt8 {
+    margin-left: 27px;
+    border-radius: 10px;
+    border: 0cap;
+    background-color: rgb(227, 226, 226);
+    margin-top: 40px;
+    width: 20%;
+    height: 130px;
+}
+
+.c1bt8:hover {
+    background-color: grey;
+}
+
+.niggaimg {
+    display: flex;
+    margin: auto;
+    /* border-radius: 10px; */
+    box-sizing: border-box;
+    
+}
+
+.b1 {
+    margin-left: 40px;
+    background-color: rgb(4, 86, 69);
+    width: 60%;
+    height: 650px;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+.bp1 {
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.hh1 {
+    font-size: 50px;
+    color: white;
+    margin-left: 20px;
+}
+
+.hh2 {
+    font-size: 50px;
+    color: seagreen;
+    margin-left: 20px;
+}
+.hh3 {
+    font-size: 50px;
+    color: seagreen;
+    margin-left: 20px;
+}
+
+.aa {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.as {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.ad {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.po1 {
+    margin-left: 20px;
+    color: white;
+    
+}
+
+.po2 {
+    margin-left: 20px;
+    color: white;
+    
+}
+
+.po3 {
+    margin-left: 20px;
+    color: white; 
+    gap: 20px;
+}
+
+.po3b {
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    height: 45px;
+    width: 30%;
+    color:  rgb(4, 86, 69);;
+}
+
+
+.nigi {
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius : 10px;
+
+}
+
+
+
+.kala {
+    margin-left: 40px;
+    height: 670px;
+    width: 88%;
+    background-image: url(./makrani.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+
+}
+
+
+.mak {
+    margin-left: 30px;
+    color: white;
+}
+
+.maka {
+    margin-left: 30px;
+    color: white;
+    font-size: 50px;
+    margin-top: 130px;
+
+}
+
+.maks {
+    margin-left: 30px;
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+
+}
+
+
+
+.mpara {
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.mpara1 {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 370px;
+    left: 50px;
+
+}
+
+.mpara2 {
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 0%;
+}
+
+.mpara3 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    top: 425px;
+
+}
+
+.btnmain {
+    display: flex;
+}
+
+.btnm1 {
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 0cap;
+    background-color: rgb(17, 134, 23);
+    color: white;
+    height: 170px;
+    width: 40%;
+    
+}
+
+.btnm1:hover {
+    color: rgb(17, 134, 23);
+    background-color: white;
+    cursor: pointer;
+}
+.btnp1 {
+    /* margin-left: 10px; */
+    /* margin-top: 10px; */
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 40px;
+    padding: 15px;
+   
+}
+.btnp2 {
+    margin-left: 17px;
+}
+
+
+
+.girl {
+    display: flex;
+    gap: 25px;
+    position: relative;
+    
+}
+
+.cont1 {
+    height: 670px;
+    background-color: red;
+    border-radius: 10px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.cnt1 {
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 55px;
+}
+
+.cont2 {
+    background-color: rgb(23, 156, 29);;
+    border-radius: 10px;
+    height: 670px;
+    width: 60%;
+    
+}
+
+.girlimg {
+    position: absolute;
+    left: 500px;
+    top: 35px;
+}
+
+.cnt11 {
+    margin-left: 50px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.cnt111 {
+    margin-left: 50px;
+
+}
+
+.cnt1111 {
+    margin-left: 50px;
+    font-size: 40px;
+    
+}
+
+.cnt1p {
+    margin-left: 50px;
+}
+
+.cnt13 {
+    margin-left: 50px;
+
+}
+
+.cnt13p {
+    margin-left: 50px;
+}
+
+.cnt2 {
+    margin-left: 30px;
+    margin-top: 300px;
+    font-size: 40px;
+    color: white;
+
+}
+
+
+.cnt22 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 33px;
+    color: white;
+    
+}
+
+.gr4 {
+    margin-left: 10px;
+}
+
+.cnt222 {
+    margin-left: 90px;
+    color: white;
+}
+
+.cnt23 {  
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 33px;
+    color: white;
+    line-height: 10px;
+    
+    
+}
+
+.gr5 {
+    margin-left: 10px;
+}
+
+.cnt233 {
+    margin-left: 90px;
+    color: white;
+}
+
+.glassgirl {
+    display: flex;
+ 
+    
+}
+
+.glassesimg {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.gcontent {
+    height: 710px;
+    width: 70%;
+    background-color: rgb(24, 97, 186);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.gp1 {
+    padding: 30px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gp2 {
+    padding: 30px;
+    font-size: 60px;
+    color: white;
+}
+
+.gp3 {
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.hrl {
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.hrp {
+    display: flex;
+    margin-left: 30px;
+    gap: 30px;
+    color: white;
+}
+
+.hrbtn {
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 0cap;
+    background-color: white;
+    color: rgb(24, 97, 186);
+    height: 40px;
+    width: 35%;
+}
+
+.hrbtn:hover {
+    background-color: grey;
+}
+
+.lawaris {
+    font-size: 50px;
+    font-weight: 620;
+}
+
+.tlast {
+    display: flex;
+    gap: 20px;
+}
+
+.child {
+    background-color: rgb(3, 97, 75);
+    height: 500px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.chimg {
+    padding: 20px;
+}
+
+.chp {
+    margin-left: 20px;
+    color: white;
+}
+
+.chpp {
+    margin-left: 20px;
+    color: white;
+}
+
+.ch1 {
+    margin-left: 20px;
+    color: white;
+    
+}
+
+.chr {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.ch2 {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.ch3 {
+    margin-left: 20px;
+    color: grey;
+}
+.ch4 {
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.ch5 {
+    margin-left: 20px;
+    color: grey;
+}
+
+.cchild {
+    background-color: rgb(221, 94, 9);
+    height: 500px;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.cchimg {
+    padding: 20px;
+}
+
+.cch1 {
+    margin-left: 20px;
+    color: white;
+    margin-top: 13px;
+}
+
+.slast {
+    display: flex;
+    gap: 140px;
+}
+
+.list {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pl {
+    color: rgb(23, 156, 29);
+    cursor: pointer;
+}
+
+.pl1 {
+     color: gray;
+}
+.pl1:hover {
+    color: rgb(23, 156, 29);
+    cursor: pointer;
+}
+
+.tm {
+    font-size: 10px;
+}
+
+.pl2 {
+    color: rgb(95, 92, 92);
+    font-size: 25px;
+}
+
+.pl2:hover {
+    color: rgb(23, 156, 29);
+    cursor: pointer;
+
+}
+
+.footer {
+    background-color: rgb(20, 19, 19);
+    border-radius: 10px;
+    width: 110%;
+    height: 900px;
+}
+.fc {
+    margin-left: 30px;
+    color: white;
+}
+
+.f1 {
+     padding: 40px;
+}
+
+.ftr {
+    display: flex;
+}
+.fl1 {
+    list-style: none;
+    height: 500px;
+    color: white;
+    line-height: 35px;
+}
+
+.fl1 li:hover {
+     text-decoration: underline;
+     cursor: pointer;    
+}
+
+.lbtns {
+    display: flex;
+    margin-left: 30px;
+    padding: 40px;
+    gap: 20px;
+}
+
+.flw {
+    color: white;
+    margin-top: 5px;
+}
+
+.fbbtn {
+    background-color: black;
+    border-radius: 50%;
+    background-image: url(https://clipground.com/images/facebook-clipart-transparente-9.jpg);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+}
+
+.lkdbtn {
+    background-image: url(linkedin.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%;
+    
+
+}
+
+.lkdbtn:hover {
+    color: white;
+}
+
+.lhr {
+    margin-left: 70px;
+    margin-right: 70px;
+    color: white;
+}
+
+.twit {
+    background-image: url(twitter.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.yt {
+    background-image: url(yt.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%; 
+}
+
+.insta {
+    background-image: url(insta.png);
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    border-radius: 50%; 
+}
+
+.mba {
+    margin-top: 5px;
+    color: white;
+    margin-left: 400px;
+}
+
+.apple {
+    background-image: url(applelogo.jpg);
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    border-radius: 50%; 
+    background-color: black;
+}
+
+.android {
+   
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; 
+    margin-top: 0px;
+
+}
+
+.end {
+    display: flex;
+}
+
+.last {
+    margin-left: 70px;
+    color: white;
+}
+
+.endli {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.endli li:hover {
+    text-decoration: underline;
+}
